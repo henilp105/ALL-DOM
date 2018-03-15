@@ -1,0 +1,43 @@
+{
+  "name": "alldom",
+  "version": "1.0.4",
+  "description": "Tiny JavaScript library for creating user interfaces and Web Applications. 100% test coverage and fast JavaScript",
+  "main": "dist/alldom.js",
+  "scripts": {
+    "dev": "node watch",
+    "dist": "gh-pages -d dist",
+    "build-js": "rollup -c -n redom -f umd -i src/index.js -o dist/alldom.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henilpanchal/alldom.git"
+  },
+  "keywords": [
+    "ALLdom",
+    "tiny",
+    "dom",
+    "library"
+  ],
+  "author": "Henil Panchal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/henilpanchal/alldom/issues"
+  },
+  "homepage": "http://alldom.back4app.io/1.html",
+  "devDependencies": {
+    "browserify": "^16.1.0",
+    "butternut": "~0.4.6",
+    "coverify": "^1.5.0",
+    "gh-pages": "~1.1.0",
+    "google-closure-compiler-js": "~20180204.0.0",
+    "marked": "~0.3.16",
+    "rollup": "~0.56.2",
+    "rollup-plugin-buble": "~0.19.2",
+    "rollup-plugin-node-resolve": "~3.0.3",
+    "semistandard": "~12.0.0",
+    "tape": "^4.9.0",
+    "tape-run": "^3.0.4",
+    "uglify-js": "~3.3.12"
+  },
+  
+}
