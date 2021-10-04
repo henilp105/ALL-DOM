@@ -1,5 +1,4 @@
-
-    (function () {
+(function () {
       Vue.component('game2048-award', {
         template: '#game2048-award',
         props: {
